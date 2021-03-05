@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import style from './Unauthorized.module.scss';
-
+// page being shown to unauthorized visitors
 const Unauthorized = () => (
   <div className={style.container}>
     <div className={style.gandalf}>

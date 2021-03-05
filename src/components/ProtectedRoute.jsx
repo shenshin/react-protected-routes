@@ -1,5 +1,5 @@
 import { Route, Redirect } from 'react-router-dom';
-
+// HOC with redirect on unauthrorized access
 const ProtectedRoute = ({
   isAuthenticated, path, children,
 }) => (
